@@ -3,8 +3,8 @@ import App from './../App';
 
 
 function Galeria() {
+   
     return (
-    
         <div className="galeria">
            <h1>GALERIA</h1>
            <article className="Cards">

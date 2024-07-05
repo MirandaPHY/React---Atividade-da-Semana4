@@ -1,12 +1,46 @@
 .box1 {
-    background-color: rgb(255, 255, 255);
+    height: 550px;
     width: 100%;
-    height: 200px;
-    border: 15px solid red;
-}
-
-.nome2 h1{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0 25px 0 0;
     
 }
+
+h1{
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+}
+
+button{
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+}
+
+a {
+    margin: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(251, 251, 251);
+
+}
+
+.lista {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.imagem{
+    background-image: url(imagens/cl.jpg) ;
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    margin-top: 18px;
+}
+
+

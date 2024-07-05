@@ -6,8 +6,9 @@ function Banner() {
        <section>
            
             <section className="fundo-imagem">
+            <h1>Arlen Barbosa</h1>
                <div className="nome1">
-               <h1>BANNER</h1>
+               
                </div>
             </section>
            
