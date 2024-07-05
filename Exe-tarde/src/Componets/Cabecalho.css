@@ -1,0 +1,12 @@
+.box1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    border: 15px solid red;
+}
+
+.nome2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    
+}

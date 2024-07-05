@@ -1,0 +1,7 @@
+footer {
+    font-style: italic;
+    background-color: grey;
+    margin: 16px;
+    text-align: center;
+    border: 10px solid yellow;
+}
