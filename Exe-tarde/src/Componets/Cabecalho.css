@@ -1,17 +1,13 @@
 .box1 {
-    height: 550px;
     width: 100%;
+    height: 5px;
     text-align: center;
     background-repeat: no-repeat;
-    background-color: black;
     margin: 0 25px 0 0;
+    margin-top: 62px;
     
 }
 
-h1{
-    color: rgb(252, 252, 252);
-    font-size: 40px;
-}
 
 .chip {
     overflow: hidden;
@@ -21,12 +17,15 @@ h1{
     background: white;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px  rgb(90, 90, 90);
+    
+        
 }
 
 .chip-text {
     position: relative;
     z-index: 2;
+    background-color: aliceblue;
 }
 
 .chip-background {
@@ -37,6 +36,7 @@ h1{
     width: 0%;
     height: 100%;
     border-radius: 20px;
+    
 }
 
 a {
@@ -44,22 +44,23 @@ a {
     text-decoration: none;
     font-size: 25px;
     color: rgb(251, 251, 251);
-
+    
 }
 
 .lista {
     margin-top: 16px;
     margin-bottom: 16px;
+    
 }
 
 
 .imagem{
-    background-image: url(imagens/cl.jpg) ;
     width: auto;
     height: 600px;
     background-repeat: no-repeat ;
     background-size: cover;
     margin-top: 18px;
+    
 }
 
 

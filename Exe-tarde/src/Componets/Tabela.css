@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     margin-left: 236px;
+    color: aliceblue;
 }
 
 .Tabela_Precos {
@@ -11,6 +12,7 @@
     width: 100%;
     height: 100%;
     margin-left: 0px;
+    color: aliceblue;
     
 }
 

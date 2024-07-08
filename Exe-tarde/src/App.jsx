@@ -9,10 +9,10 @@ function App() {
     <div className="App">
     <>
      <Cabecalho
-     
      />
-
+     
      <Banner/> 
+
 
      <Galeria
       

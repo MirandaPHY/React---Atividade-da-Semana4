@@ -1,14 +1,9 @@
 import "./Cabecalho.css";
 
 
-document.querySelectorAll('.chip').forEach(chip => {
-    chip.addEventListener('click', () => {
-        const background = chip.querySelector('.chip-background');
-        if (background){
-            background.classList.toggle('active');
-        }
-        });
-});
+    function handleClick() {
+        alert("vamos para o loguin");
+}
 
 
 function Cabecalho(){
@@ -23,7 +18,7 @@ function Cabecalho(){
                     <a href="#">Planos Mensal</a>
                 </ul>
                 <span className="chip">
-                    <span className="chip-text">Entrar 🚪</span>
+                    <span className="chip-text" onClick={handleClick}>Entrar 🚪</span>
                     <span className="chip-background"></span>
                 </span>
                 <section className="imagem"></section>
