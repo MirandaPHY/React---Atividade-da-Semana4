@@ -1,10 +1,11 @@
-import "./Tabela";
-import App from '../App';
+import "./Tabela.css";
+
 
 function Tabela() {
     return (
         <section className="Tabela_Precos">
             <table className="social">
+                
                 <tr><h1>TABELA DE VALORES</h1></tr>
                 <tr>
                 <th>CORTE</th>
@@ -50,15 +51,15 @@ function Tabela() {
                     <th>LUZES</th>
                     <th>R$ 70,00</th>
                 </tr>
-            </table>
 
-            <table className="combo">
-                <th>COMBO</th>
+                <th className="Combo">COMBO</th>
                 <tr>
                     <th>CABELO + BARBA + SONBRANCELHA </th>
                     <th>R$ 55,00</th>
                 </tr>
             </table>
+
+           
 
         </section>
     )

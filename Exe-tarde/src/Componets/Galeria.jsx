@@ -1,5 +1,5 @@
 import "./Galeria.css";
-import App from './../App';
+
 
 
 function Galeria() {

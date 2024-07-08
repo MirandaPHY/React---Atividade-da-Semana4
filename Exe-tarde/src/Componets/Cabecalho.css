@@ -13,11 +13,30 @@ h1{
     font-size: 40px;
 }
 
-button{
-    border: 3px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    align-items: center;
+.chip {
+    overflow: hidden;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chip-text {
+    position: relative;
+    z-index: 2;
+}
+
+.chip-background {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 a {
@@ -43,4 +62,19 @@ a {
     margin-top: 18px;
 }
 
+
+
+.active {
+    animation: fill 0.5s forwards;
+}
+
+@keyframes fill {
+   0% {
+    width: 0;
+}
+100% {
+    width: 100%;
+}
+
+}
 
